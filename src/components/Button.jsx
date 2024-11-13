@@ -1,12 +1,9 @@
 import React from 'react'
 
-const Button = ( label, iconURL) => {
+const Button = ( { label, iconURL }) => {
   return (
-    <button className=''>
-        {label}
-        {/* <img src="" alt="" /> */}
-    </button>
+    <div>{label}</div>
   )
 }
 
-export default Button;
+export default Button

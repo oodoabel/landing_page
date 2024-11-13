@@ -1,5 +1,5 @@
-// import { Button } from './Button';
 import { arrowRight } from '../assets/icons';
+// import { Button } from './Button'
 
 const Hero = () => {
   return (
@@ -14,7 +14,8 @@ const Hero = () => {
       <p>
         Discover stylish Nike arrivals, quality comfort, and innovation for your active life.
       </p>
-      {/* <Button label="Shop now" iconURL ={arrowRight} /> */}
+      <button className='bg-coral-red h-10 w-[6rem] rounded-full'>Shop me <img src="../assets/icons/arrow-right.svg" alt="" /></button>
+
     </section>
     
 
