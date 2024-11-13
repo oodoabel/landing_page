@@ -9,7 +9,7 @@ import SuperQuality from "./components/SuperQuality";
 import PopularProducts from "./components/PopularProducts";
 
 const App = () => (
-  <main className="relative">
+  <main className="relative px-9">
     <Nav/>
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero/>
